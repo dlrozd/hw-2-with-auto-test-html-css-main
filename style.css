@@ -7,6 +7,7 @@
 }
 
 body {
+    color: rgba(48, 48, 48);
     font-family: "Inter", sans-serif;
 }
 
@@ -24,17 +25,17 @@ header span {
 
 .main-section {
     background: #fafaff;
+    padding: 60px 0;
 }
 
 .main-title {
-    padding-top: 60px;
     font-weight: 700;
     font-size: 48px;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
-    margin-top: 20px;
     font-weight: 400;
     font-size: 18px;
     color: #303030;
@@ -42,13 +43,12 @@ header span {
 
 .main-image {
     height: 508px;
-    width: 715px;
+    max-width: 715px;
 }
 
 
 .about-section {
-    margin-top: 100px;
-
+    padding: 100px 0;
 }
 
 select {
@@ -79,13 +79,13 @@ select {
 }
 
 .frameworks-list li {
-    padding-left: 19px;
+    padding: 0 20px;
     background: url("./assets/icons/vector.png") no-repeat left;
 }
 
 .books-list {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -163,7 +163,7 @@ th {
 
 th, td {
     border: 1px solid #95A1BB;
-    padding: 8px 12px;
+    padding: 12px 15px;
 }
 
 footer {
