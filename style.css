@@ -76,10 +76,12 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
+    padding: 0 20px;
+    list-style: none;
+
 }
 
 .frameworks-list li {
-    padding: 0 20px;
     background: url("./assets/icons/vector.png") no-repeat left;
 }
 
